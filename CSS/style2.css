@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap');
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* debut style pour la bande horizontale et son texte */
+
+.txtcontainer {
+    width: 100%;
+    height: 50px;
+    display: inline-block;
+}
+
+.marge {
+    width: 1%;
+    height: 50px;
+    background-color: rgb(209, 0, 0);
+    float: left;
+}
+
+.texte {
+    width: 99%;
+    height: 50px;
+    background-color: rgb(207, 207, 207);
+    display: inline-block;
+    text-align: center;
+}
+
+.offre {
+    position: relative;
+    bottom: 9px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+}
+
+
+/* fin style pour la bande horizontale et son texte */
+
+
+/* debut style pour tous les elements des 3 cards: texts/blocs*/
+
+.col1 {
+    max-width: 20%;
+    display: inline-block;
+    padding: 20px;
+}
+
+.col3 {
+    max-width: 20%;
+    display: inline-block;
+    padding: 20px;
+}
+
+.col2 {
+    max-width: 20%;
+    display: inline-block;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.card {
+    display: inline-block;
+    min-height: 400px;
+    max-width: 300px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    position: relative;
+    transition: all ease 0.5s;
+    font-size: 10px;
+}
+
+.card img {
+    max-width: 300px;
+    min-height: 200px;
+    object-fit: cover;
+    border-radius: 15px 15px 0px 0px;
+    max-width: 100%;
+}
+
+.card h1 {
+    font-size: 1.3rem;
+}
+
+.price {
+    font-style: italic;
+    color: rgb(155, 154, 154);
+    margin: 10px 0px;
+}
+
+.card-content {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-top: 5px;
+    min-height: 150px;
+}
+
+.card button {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 15px;
+    background-color: rgb(209, 0, 0);
+    outline: 0;
+    border: 0;
+    border-radius: 0px 0px 15px 15px;
+    color: white;
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+.card:hover {
+    cursor: pointer;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+    transform: translateY(-7px);
+}
+
+.row {
+    max-width: 100%;
+    margin-top: 20px;
+    padding: 5px;
+}
+
+.containerrow {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+
+/* fin style pour tous les elements des 3 cards : texts/blocs*/
+
+
+/* debut style pour tous les elements du footer : texts/blocs*/
+
+.footer {
+    max-width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+.left-foot-container {
+    padding: 5px;
+    text-align: center;
+    font-size: large;
+}
+
+.subm {
+    position: relative;
+    left: 652px;
+    top: 20px;
+    font-size: x-large;
+}
+
+.heighttext {
+    background-color: rgb(255, 255, 255);
+}
+
+#fname {
+    font-size: x-large;
+    background-color: rgb(255, 255, 255);
+    font-style: italic;
+}
+
+#lname {
+    font-size: x-large;
+    background-color: rgb(255, 255, 255);
+    font-style: italic;
+}
+
+.trfooter {
+    font-style: italic;
+    color: rgb(255, 255, 255);
+}
+
+.creative {
+    color: rgb(209, 0, 0);
+}
+
+.copy {
+    color: rgb(255, 255, 255);
+}
+
+
+/* fin style pour tous les elements du footer : texts/blocs*/
+
+
+/* debut style pubs */
+
+.row_pub {
+    max-width: 100%;
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+}
+
+.col1_pub {
+    width: 30%;
+    display: inline-block;
+    padding: 15px;
+    font-size: 14px;
+}
+
+.col2_pub {
+    width: 30%;
+    display: inline-block;
+    padding: 15px;
+    font-size: 14px;
+}
+
+.col3_pub {
+    width: 30%;
+    display: inline-block;
+    padding: 15px;
+    font-size: 14px;
+}
+
+.pub1 img {
+    width: 450px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 15px 15px 15px 15px;
+    display: inline-block;
+    max-width: 100%;
+}
+
+.pub2 img {
+    width: 450px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 15px 15px 15px 15px;
+    display: inline-block;
+    max-width: 100%;
+}
+
+.pub3 img {
+    width: 450px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 15px 15px 15px 15px;
+    display: inline-block;
+    max-width: 100%;
+}
+
+
+/* fin style pubs */
